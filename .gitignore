@@ -1,0 +1,115 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment folders
+env/
+venv/
+ENV/
+VENV/
+.virtualenv/
+.venv/
+
+# Azure Functions local settings
+local.settings.json
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.env.*
+venv.bak/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# CSV files
+*.csv
+
+# Ignore the function app package files
+funcpack.zip
+
+# Ignore requirements.txt if you're using Pipenv or Poetry
+# Uncomment if not needed
+# requirements.txt
+# requirements-dev.txt
+
+# Ignore wheel files
+*.whl
+
+# Ignore temporary files
+~$*
+
+# Ignore backup files
+*.bak
+*.old
+*.orig
+*.tmp
+
+# Ignore compiled shared objects
+*.dll
+*.dylib
+*.pyd
