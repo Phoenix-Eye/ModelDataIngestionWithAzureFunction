@@ -29,7 +29,7 @@ with open(csv_file_path, mode='w', newline='', encoding='utf-8') as file:
     # Process and write each row
     for row in csv_reader:
         # We can add data processing ove here
-        # Filter out rows with low confidence, which means the fire detection is not very reliable 
+        # Filter out rows with low confidence, which means the fire detection is not very reliable
         if row.get('confidence', '').lower() not in ['low']:
             csv_writer.writerow(row)
 
