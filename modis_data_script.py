@@ -7,7 +7,7 @@ output_folder = "modis_csv_data"
 os.makedirs(output_folder, exist_ok=True)
 
 # URL of the CSV file
-csv_url = "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-21-viirs-c2/csv/J2_VIIRS_C2_Global_24h.csv"
+csv_url = "https://firms.modaps.eosdis.nasa.gov/data/active_fire/noaa-21-viirs-c2/csv/J2_VIIRS_C2_Global_30d.csv"
 
 # Output CSV file path
 csv_file_path = os.path.join(output_folder, "viirs_active_fires.csv")
